@@ -89,7 +89,7 @@ if __name__ == '__main__':
                   ]
     suit.addTests(case_list)
     # now = time.strftime("%Y_%m_%d %H_%M_%S")
-    file = open('../TestResult/order.html', 'wb')
-    runner = HTMLTestRunner(stream=file, title='WWW下单——测试报告', description='测试情况')
+    file = open('../TestResult/order_android.html', 'wb')
+    runner = HTMLTestRunner(stream=file, title='Android自动化——测试报告', description='测试情况')
     runner.run(suit)
     file.close()
