@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5af786c8-2f32-4a82-b82a-a76305dfa2ee" name="Default" comment="">
+    <list default="true" id="5af786c8-2f32-4a82-b82a-a76305dfa2ee" name="Default" comment="Android">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/Page_Base.py" afterPath="$PROJECT_DIR$/Page/Page_Base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/Page_Home.py" afterPath="$PROJECT_DIR$/Page/Page_Home.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/Page_Login.py" afterPath="$PROJECT_DIR$/Page/Page_Login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/Page_Order.py" afterPath="$PROJECT_DIR$/Page/Page_Order.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Page/Page_OrderDetail.py" afterPath="$PROJECT_DIR$/Page/Page_OrderDetail.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCase/test.py" afterPath="$PROJECT_DIR$/TestCase/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.conf" afterPath="$PROJECT_DIR$/config/environment.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/test_order.conf" afterPath="$PROJECT_DIR$/config/test_order.conf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +19,11 @@
       <file leaf-file-name="Page_Login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Page/Page_Login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="320">
+              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <marker date="1504521639352" expanded="true" signature="1275:1324" ph="..." />
               </folding>
             </state>
           </provider>
@@ -35,21 +32,11 @@
       <file leaf-file-name="Page_Base.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Page/Page_Base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="580">
+              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page_MyEhsy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Page/Page_MyEhsy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -82,17 +69,37 @@
         <entry file="file://$PROJECT_DIR$/TestCase/test_order.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="82">
-              <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="31" />
+              <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_order.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/test_order.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestCase/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="137" column="59" lean-forward="false" selection-start-line="137" selection-start-column="59" selection-end-line="137" selection-end-column="59" />
+            <state relative-caret-position="-1075">
+              <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.conf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environment.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,7 +110,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
+              <folding>
+                <marker date="1504521639354" expanded="true" signature="47:1828" ph="..." />
+                <marker date="1504521639354" expanded="true" signature="751:1003" ph="..." />
+                <marker date="1504521639354" expanded="true" signature="1563:1628" ph="..." />
+                <marker date="1504521639354" expanded="true" signature="1664:1828" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,9 +123,11 @@
       <file leaf-file-name="Page_Home.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Page/Page_Home.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <marker date="1504521639351" expanded="true" signature="46:419" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,12 +145,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master2" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <push-targets>
       <push-target-info target-remote="origin" target-branch="develop" repo="$PROJECT_DIR$" source="master" />
     </push-targets>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+                <branch-info repo="$PROJECT_DIR$" source="develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -146,8 +174,6 @@
         <option value="$PROJECT_DIR$/Page/Page_CategoryTools.py" />
         <option value="$PROJECT_DIR$/Page/Page_Cart.py" />
         <option value="$PROJECT_DIR$/Page/Page_Pay.py" />
-        <option value="$PROJECT_DIR$/config/test_order.conf" />
-        <option value="$PROJECT_DIR$/config/environment.conf" />
         <option value="$PROJECT_DIR$/Page/Page_MyEhsy.py" />
         <option value="$PROJECT_DIR$/Page/Page_Setting.py" />
         <option value="$PROJECT_DIR$/Page/Page_Login.py" />
@@ -156,6 +182,8 @@
         <option value="$PROJECT_DIR$/Page/Page_OrderDetail.py" />
         <option value="$PROJECT_DIR$/Page/Page_Home.py" />
         <option value="$PROJECT_DIR$/TestCase/test.py" />
+        <option value="$PROJECT_DIR$/config/environment.conf" />
+        <option value="$PROJECT_DIR$/config/test_order.conf" />
       </list>
     </option>
   </component>
@@ -445,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504259715802</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Android">
+      <created>1504521487321</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1504521487322</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -529,7 +564,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Page/Page_OrderDetail.py</url>
-          <line>17</line>
+          <line>20</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
@@ -608,6 +643,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -826,21 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/test_order.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Page/Page_MyEhsy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -851,10 +872,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Page/Page_Login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="320">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <marker date="1504521639352" expanded="true" signature="1275:1324" ph="..." />
           </folding>
         </state>
       </provider>
@@ -863,7 +885,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1504521639354" expanded="true" signature="47:1828" ph="..." />
+            <marker date="1504521639354" expanded="true" signature="751:1003" ph="..." />
+            <marker date="1504521639354" expanded="true" signature="1563:1628" ph="..." />
+            <marker date="1504521639354" expanded="true" signature="1664:1828" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -895,8 +922,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Page/Page_Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="580">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -915,24 +942,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Page/Page_Home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="220">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1504521639351" expanded="true" signature="46:419" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test_order.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
-          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="31" />
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="137" column="59" lean-forward="false" selection-start-line="137" selection-start-column="59" selection-end-line="137" selection-end-column="59" />
+        <state relative-caret-position="-1075">
+          <caret line="78" column="55" lean-forward="true" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/test_order.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
