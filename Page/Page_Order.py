@@ -23,6 +23,8 @@ class Order(Page):
         self.element_find(self.vat_invoice).click()
         self.element_find(self.invoice_choose).click()
         self.element_find(self.first_vat_invoice).click()
+        self.element_find(self.address_choose).click()
+        self.element_find(self.first_address).click()
         self.element_find(self.invoice_confirm).click()
 
     def choose_normal_invoice(self):
@@ -31,6 +33,8 @@ class Order(Page):
         self.element_find(self.invoice_choose).click()
         self.element_find(self.first_normal_invoice).click()
         self.element_find(self.normal_invoice_confirm).click()
+        self.element_find(self.address_choose).click()
+        self.element_find(self.first_address).click()
         self.element_find(self.invoice_confirm).click()
 
     def choose_none_invoice(self):

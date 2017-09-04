@@ -1,5 +1,6 @@
 import requests
 from configobj import ConfigObj
+from selenium.common.exceptions import ElementNotVisibleException
 
 
 class Page():
@@ -24,6 +25,8 @@ class Page():
             element_find = self.driver.find_element_by_partial_link_text(element[1])
         if element[0] == 'by.accessibility_id':
             element_find = self.driver.find_element_by_accessibility_id(element[1])
+        if element[0] == 'by.android_uiautomator':
+            element_find = self.driver.find_element_by_android_uiautomator(element[1])
         return element_find
 
     def elements_find(self, element):
@@ -43,6 +46,8 @@ class Page():
             elements_find = self.driver
         if element[0] == 'by.accessibility_id':
             elements_find = self.driver.find_elements_by_accessibility_id(element[1])
+        if element[0] == 'by.android_uiautomator':
+            elements_find = self.driver.find_elements_by_android_uiautomator(element[1])
         return elements_find
 
     @staticmethod
@@ -62,3 +67,20 @@ class Page():
         config = ConfigObj('../config/' + file)
         content = config[section][option]
         return content
+
+    @staticmethod
+    def wait_dom(element):
+        for i in range(50):
+            if element.is_displayed():
+                break
+            else:
+                pass
+
+    @staticmethod
+    def wait_visible_and_click(element):
+        for i in range(50):
+            try:
+                element.click()
+                break
+            except ElementNotVisibleException:
+                continue
